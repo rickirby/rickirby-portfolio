@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ricki Bin Yamin",
   description: "iOS Engineer at Stockbit | Ex-Traveloka | Ex-DANA",
+  srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

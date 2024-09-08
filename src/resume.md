@@ -7,13 +7,17 @@ outline: deep
 **Ricki Bin Yamin**<br>
 iOS Software Engineer<br>
 Jakarta, Indonesia<br><br>
-![pdf](assets/pdf.png){width=28}
-[Download](public/resume_ricki_bin_yamin.pdf)
+![pdf](/pdf.png){width=28}
+[Download](/resume_ricki_bin_yamin.pdf)
 
 ## Summary
 **Software Engineer** with over 5 years of hands-on experience specializing in building **iOS Native Apps**. Proficient in crafting intuitive user interfaces programmatically using `UIKit`, `SwiftUI`, `SnapKit`, and `AsyncDisplayKit` (`Texture`). Skilled in developing high-scalable applications integrating customer-centric 3rd party frameworks such as `Firebase`, `CleverTap`, `OneSignal`, `AppsFlyer`, `Split.io`, among others. Also experienced in DevX/Infra stuff such as setting up `CI/CD`, managing provisioning profiles and certificates, Push Notification, modularization design system, scripting in `shell` and `ruby`, and releasing apps in App Store Connect.
 
 ## Experience
+
+::: tip
+If a link is included in the list below, you can tap it to see my detailed achievements.
+:::
 
 ### Stockbit - iOS Engineer Core/Infra
 Jakarta, Indonesia (March 2022 - Present)<br>
@@ -36,7 +40,7 @@ Tangerang, Indonesia (September 2021 - March 2022)<br>
 
 - Handle relayout Financial Service feature page.
 - Handle new user challenge (PIN challenge) for known `HTTP` status code.
-- Implement MVVM-C architecture, with modular based using Development Pods.
+- Implement `MVVM-C` architecture, with modular based using Development Pods.
 - Build UI programmatically using `SnapKit`.
 - Implement Unit Test on every new line written code.
 - Migrate legacy `Objective-C` code into `Swift`.
@@ -56,11 +60,10 @@ Jakarta, Indonesia (July 2020 - September 2021)<br>
 - Work with Core-Payment team to develop Send Money features.
 - Work with Lifestyle team to maintain “All Services” features section.
 - Involved in developing E-Money feature.
-- Implement MVVM-C architecture, framework integration using Carthage.
-- Build UI programmatically using AsyncDisplayKit (Texture).
-- Implement Reactive Programming using RxSwift.
-- Manage Javascript - bridge to handle communication between web apps container (WebView)
-and native apps.
+- Implement `MVVM-C` architecture, framework integration using `Carthage`.
+- Build UI programmatically using `AsyncDisplayKit` (Te`xture).
+- Implement Reactive Programming using `RxSwift`.
+- Manage Javascript - bridge to handle communication between web apps container (WebView) and native apps.
 - Implement Unit Testing as well as mocking API service.
 
 ### Apple Developer Academy @UC - iOS Developer | Internship
@@ -68,11 +71,11 @@ Surabaya, Indonesia (March - December 2019)<br>
 
 - Implement Git Workflow in every project.
 - Learn iOS Development Life Cycles.
-- Learn build UI programmatically using UIKit instead of drag and drop using Storyboard/XIB.
-- Learn build UI programmatically using SwiftUI.
-- Learn CoreData and CloudKit integration.
-- Learn CoreML.
-- Build apps for guiding user to learn writing Kanji, based on CoreML. (Final Project)
+- Learn build UI programmatically using `UIKit` instead of drag and drop using `Storyboard`/`XIB`.
+- Learn build UI programmatically using `SwiftUI`.
+- Learn `CoreData` and `CloudKit` integration.
+- Learn `CoreML`.
+- Build apps for guiding user to learn writing Kanji, based on `CoreML`. (Final Project)
 - Build apps for managing boarding house rental. (Final Project)
 
 ## Volunteer Experience
