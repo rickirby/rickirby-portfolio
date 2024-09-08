@@ -3,27 +3,33 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Ricki Bin Yamin",
-  description: "My Portfolio",
+  description: "iOS Engineer at Stockbit | Ex-Traveloka | Ex-DANA",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Portfolio', link: '/portfolio'},
+      { text: 'Resume', link: '/resume' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Portfolio', link: '/portfolio' },
+          { text: 'Resume', link: '/resume' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/rickirby' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/rickirby18' }
+    ],
+
+    footer: {
+      copyright: 'Copyright © 2024 Ricki Bin Yamin'
+    }
   }
 })
