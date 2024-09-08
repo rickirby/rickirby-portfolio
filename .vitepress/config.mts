@@ -25,8 +25,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/rickirby' },
-      { icon: 'linkedin', link: 'https://linkedin.com/in/rickirby18' }
+      { icon: 'linkedin', link: 'https://linkedin.com/in/rickirby18' },
+      { icon: 'github', link: 'https://github.com/rickirby' }
     ],
 
     footer: {

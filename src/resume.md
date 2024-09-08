@@ -83,10 +83,10 @@ Surabaya, Indonesia (March - December 2019)<br>
 ### PLC (Programmable Logic Controller) Trainer - ITS Campus
 At Siemens SciTech Competition Event, Held by ITS x Siemens (2017)<br>
 
-- As trainer of Programmable Logic Controller (PLC) using Ladder Diagram (PLC programming language)
+- As trainer of Programmable Logic Controller (PLC) using `Ladder Diagram` (PLC programming language)
 - As trainer of Human Machine Interface (HMI), a companion for PLC as User Interface.
 - Composing training materials.
-- Material covered: basic I/O, basic logical gate (AND, OR, NOT, XOR, XNOR), sequential logic (Flip-Flop), Timer, Counter.
+- Material covered: basic I/O, basic logical gate (`AND`, `OR`, `NOT`, `XOR`, `XNOR`), sequential logic (`Flip-Flop`), `Timer`, `Counter`.
 
 ## Education
 
