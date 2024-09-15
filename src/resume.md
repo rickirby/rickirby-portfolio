@@ -61,7 +61,7 @@ Jakarta, Indonesia (July 2020 - September 2021)<br>
 - Work with Lifestyle team to maintain “All Services” features section.
 - Involved in developing E-Money feature.
 - Implement `MVVM-C` architecture, framework integration using `Carthage`.
-- Build UI programmatically using `AsyncDisplayKit` (Te`xture).
+- Build UI programmatically using `AsyncDisplayKit` (Texture).
 - Implement Reactive Programming using `RxSwift`.
 - Manage Javascript - bridge to handle communication between web apps container (WebView) and native apps.
 - Implement Unit Testing as well as mocking API service.
