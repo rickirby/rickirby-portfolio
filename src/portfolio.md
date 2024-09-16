@@ -20,7 +20,7 @@ To address the numerous SwiftLint violations scattered across hundreds of files 
 The Quarantine Strategy involves categorizing files into two groups: healthy and infected. We keep the health of healthy files by implementing `danger-swiftlint` on Pull Request, while on other side we reduce the number of infected files.<br><br>
 ![Bot Cepu](/portfolio/port_sb_swiftlint_quarantine_cepu.png){width=500}<br>
 To track our progress with this strategy, we've set up a scheduled workflow that monitors and counts the remaining infected files. This count is regularly posted to our Slack channel to keep the team informed and motivated.<br><br>
-[See Details](){.rounded-button}
+[See Details](/portfolio/swiftlint_quarantine_strategy){.rounded-button}
 :::
 ::: item-details AI-Powered Pull Request Reviewer
 Here is some detailed content inside the custom details block.
