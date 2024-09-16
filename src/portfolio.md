@@ -5,8 +5,8 @@ outline: deep
 # Portfolio
 
 ### Stockbit
-![Stockbit](./company/sb_logo_light.png){.light-only width=137.39}
-![Stockbit](./company/sb_logo_dark.png){.dark-only width=137.39}
+![Stockbit](/company/sb_logo_light.png){.light-only width=137.39}
+![Stockbit](/company/sb_logo_dark.png){.dark-only width=137.39}
 
 #### 🏢 iOS Infra Stuff
 * Enablement of Linux Runner in Gitlab-CI for `danger-swiftlint`
@@ -47,8 +47,8 @@ outline: deep
 * Integration of `Talsec Security` Framework to Detect Jailbreak and Other Device Manipulation
 
 ### Traveloka
-![Traveloka](./company/tvlk_logo_light.png){.light-only width=200}
-![Traveloka](./company/tvlk_logo_dark.png){.dark-only width=200}
+![Traveloka](/company/tvlk_logo_light.png){.light-only width=200}
+![Traveloka](/company/tvlk_logo_dark.png){.dark-only width=200}
 
 #### 💸 Feature Related - Payment
 * Financials Service Page Relayout
@@ -59,7 +59,7 @@ outline: deep
 * Unit Test Pattern to Check Code Sequence
 
 ### RCTI+
-![RCTI+](./company/rcti_logo.png){width=127.41}
+![RCTI+](/company/rcti_logo.png){width=127.41}
 
 #### 🎥 Feature Related - Video
 * Create Video Player Interaction

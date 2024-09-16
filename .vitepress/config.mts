@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import markdownItContainer from 'markdown-it-container';
+import markdownItContainer from 'markdown-it-container'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -53,17 +53,17 @@ export default defineConfig({
     config: (md) => {
       md.use(markdownItContainer, 'item-details', {
         validate(params) {
-          return params.trim().match(/^item-details\s+(.*)$/);
+          return params.trim().match(/^item-details\s+(.*)$/)
         },
         render(tokens, idx) {
           const m = tokens[idx].info.trim().match(/^item-details\s+(.*)$/);
           if (tokens[idx].nesting === 1) {
             return `<details class="item-details"><summary>${md.renderInline(m[1])}</summary>\n`;
           } else {
-            return '</details>\n';
+            return '</details>\n'
           }
         }
-      });
+      })
     }
   }
 })
