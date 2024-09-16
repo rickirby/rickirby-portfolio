@@ -70,7 +70,7 @@ outline: deep
 #### 🔨 Other Tech Stack
 * Manage `JavaScript` bridge to handle communication between web apps and native apps
 
-<style>
+<style scoped>
 h3 {
     visibility: hidden;
 }
