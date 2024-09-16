@@ -10,16 +10,15 @@ outline: deep
 
 #### 🏢 iOS Infra Stuff
 ::: item-details Enablement of Linux Runner in Gitlab-CI for `danger-swiftlint`
+Since we can run `Swift` in Linux by using `Swift Toolchain`, I enabled `danger-swiftlint` to run on a CI Linux Runner.<br><br>
 ![Danger-SwiftLint](/portfolio/port_sb_danger_lint.png){width=500}<br>
-I enabled `danger-swiftlint` to run on a Linux Runner for linting an iOS project. The process was significantly faster on Linux, completing in just `38 seconds`, compared to over `3 minutes` on Xcode Cloud CI.<br><br>
+The process was significantly faster on Linux, completing in just `38 seconds`, compared to over `3 minutes` on Xcode Cloud CI.<br><br>
 [See Details](){.rounded-button}
 :::
 ::: item-details `SwiftLint` Quarantine Strategy to resolve thousands of Lint Violation
-To address the numerous SwiftLint violations scattered across hundreds of files in our project, we're employing a strategic approach to manage and resolve them efficiently. One of the strategies we're utilizing is the `Boy Scout Rule`. However, to enhance our efforts further, we're introducing a new approach known as the Quarantine Strategy.<br><br>
-![Danger MR](/portfolio/port_sb_swiftlint_quarantine_mr.png){width=400}<br>
-The Quarantine Strategy involves categorizing files into two groups: healthy and infected. We keep the health of healthy files by implementing `danger-swiftlint` on Pull Request, while on other side we reduce the number of infected files.<br><br>
-![Bot Cepu](/portfolio/port_sb_swiftlint_quarantine_cepu.png){width=500}<br>
-To track our progress with this strategy, we've set up a scheduled workflow that monitors and counts the remaining infected files. This count is regularly posted to our Slack channel to keep the team informed and motivated.<br><br>
+To address the numerous `SwiftLint` violations scattered across hundreds of files in our project, I'm introducing a new approach known as the **Quarantine Strategy**.<br><br>
+![Quarantine Diagram](/portfolio/port_sb_swiftlint_quarantine_diagram.png)<br>
+The Quarantine Strategy involves categorizing files into two groups: healthy and infected. We keep the health of healthy files by implementing `danger-swiftlint` on Pull Request, while on other side we reduce the number of infected files<br><br>
 [See Details](/portfolio/swiftlint_quarantine_strategy){.rounded-button}
 :::
 ::: item-details AI-Powered Pull Request Reviewer
@@ -90,5 +89,9 @@ Here is some detailed content inside the custom details block.
 <style scoped>
 h3 {
     visibility: hidden;
+}
+
+h4 { 
+    margin-bottom: 16px; 
 }
 </style>

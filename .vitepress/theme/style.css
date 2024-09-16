@@ -24,8 +24,8 @@ details.item-details p {
 
 .rounded-button {
     background-color: #b6b6b649;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding: 8px 16px;
+    border-radius: 6px;
     cursor: pointer;
     text-align: center;
     display: inline-block;
