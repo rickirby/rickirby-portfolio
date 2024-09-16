@@ -5,3 +5,19 @@
 :root:is(.dark) .light-only {
     display: none;
 }
+
+details.item-details summary {
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+  
+details.item-details[open] {
+    margin-bottom: 8px;
+}
+  
+details.item-details p {
+    margin-top: 4px;
+    margin-left: 36px;
+}

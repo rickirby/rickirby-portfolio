@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import markdownItContainer from 'markdown-it-container';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -45,6 +46,24 @@ export default defineConfig({
 
     footer: {
       copyright: 'Copyright © 2024 Ricki Bin Yamin'
+    }
+  },
+
+  markdown: {
+    config: (md) => {
+      md.use(markdownItContainer, 'item-details', {
+        validate(params) {
+          return params.trim().match(/^item-details\s+(.*)$/);
+        },
+        render(tokens, idx) {
+          const m = tokens[idx].info.trim().match(/^item-details\s+(.*)$/);
+          if (tokens[idx].nesting === 1) {
+            return `<details class="item-details"><summary>${md.renderInline(m[1])}</summary>\n`;
+          } else {
+            return '</details>\n';
+          }
+        }
+      });
     }
   }
 })
