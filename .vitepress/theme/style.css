@@ -21,3 +21,17 @@ details.item-details p {
     margin-top: 4px;
     margin-left: 36px;
 }
+
+.rounded-button {
+    background-color: #b6b6b649;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+  
+.rounded-button:hover {
+    background-color: #72727249;
+}
