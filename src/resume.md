@@ -7,8 +7,8 @@ outline: deep
 **Ricki Bin Yamin**<br>
 iOS Software Engineer<br>
 Jakarta, Indonesia<br><br>
-![pdf](/pdf.png){width=28}
-[Download](/resume_ricki_bin_yamin.pdf)
+![pdf](/assets/icon/ic_pdf.png){width=28}
+[Download](/assets/profile/resume_ricki_bin_yamin.pdf)
 
 ## Summary
 **Software Engineer** with over 5 years of hands-on experience specializing in building **iOS Native Apps**. Proficient in crafting intuitive user interfaces programmatically using `UIKit`, `SwiftUI`, `SnapKit`, and `AsyncDisplayKit` (`Texture`). Skilled in developing high-scalable applications integrating customer-centric 3rd party frameworks such as `Firebase`, `CleverTap`, `OneSignal`, `AppsFlyer`, `Split.io`, among others. Also experienced in DevX/Infra stuff such as setting up `CI/CD`, managing provisioning profiles and certificates, Push Notification, modularization design system, scripting in `shell` and `ruby`, and releasing apps in App Store Connect.

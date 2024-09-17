@@ -11,19 +11,19 @@ Tap any item from the list below to expand or collapse its description. Once exp
 :::
 
 ### Stockbit
-![Stockbit](/company/sb_logo_light.png){.light-only width=137.39}
-![Stockbit](/company/sb_logo_dark.png){.dark-only width=137.39}
+![Stockbit](/assets/company/sb_logo_light.png){.light-only width=137.39}
+![Stockbit](/assets/company/sb_logo_dark.png){.dark-only width=137.39}
 
 #### 🏢 iOS Infra Stuff
 ::: item-details Enablement of Linux Runner in Gitlab-CI for `danger-swiftlint`
 Since we can run `Swift` in Linux by using `Swift Toolchain`, I enabled `danger-swiftlint` to run on a CI Linux Runner.<br><br>
-![Danger-SwiftLint](/portfolio/port_sb_danger_lint.png){width=500}<br>
+![Danger-SwiftLint](/assets/portfolio/port_sb_danger_lint.png){width=500}<br>
 The process was significantly faster on Linux, completing in just `38 seconds`, compared to over `3 minutes` on Xcode Cloud CI.<br><br>
 [See Details](/portfolio/stockbit/linux_runner_danger_swiftlint){.rounded-button}
 :::
 ::: item-details `SwiftLint` Quarantine Strategy to resolve thousands of Lint Violation
 To address the numerous `SwiftLint` violations scattered across hundreds of files in our project, I'm introducing a new approach known as the **Quarantine Strategy**.<br><br>
-![Quarantine Diagram](/portfolio/port_sb_swiftlint_quarantine_diagram.png)<br>
+![Quarantine Diagram](/assets/portfolio/port_sb_swiftlint_quarantine_diagram.png)<br>
 The Quarantine Strategy involves classifying files into two categories: healthy and infected. To maintain the integrity of healthy files, we enforce `danger-swiftlint` on every Pull Request. Simultaneously, we work to reduce the number of infected files over time.<br><br>
 [See Details](/portfolio/stockbit/swiftlint_quarantine_strategy){.rounded-button}
 :::
@@ -111,8 +111,8 @@ The Quarantine Strategy involves classifying files into two categories: healthy 
 <br>
 
 ### Traveloka
-![Traveloka](/company/tvlk_logo_light.png){.light-only width=200}
-![Traveloka](/company/tvlk_logo_dark.png){.dark-only width=200}
+![Traveloka](/assets/company/tvlk_logo_light.png){.light-only width=200}
+![Traveloka](/assets/company/tvlk_logo_dark.png){.dark-only width=200}
 
 #### 💸 Feature Related - Payment
 ::: item-details Financials Service Page Relayout
@@ -133,7 +133,7 @@ The Quarantine Strategy involves classifying files into two categories: healthy 
 <br>
 
 ### RCTI+
-![RCTI+](/company/rcti_logo.png){width=127.41}
+![RCTI+](/assets/company/rcti_logo.png){width=127.41}
 
 #### 🎥 Feature Related - Video
 ::: item-details Create Video Player Interaction

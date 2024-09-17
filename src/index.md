@@ -7,7 +7,7 @@ hero:
   text: "iOS Software Engineer"
   tagline: Stockbit | Ex-Traveloka | Ex-DANA
   image:
-    src: /profile-photo.png
+    src: /assets/profile/profile-photo.png
   actions:
     - theme: brand
       text: Explore More
@@ -16,23 +16,23 @@ hero:
 features:
   - title: Portfolio
     icon:
-      src: portfolio.png
+      src: /assets/icon/ic_portfolio.png
     details: See my recent work as iOS Engineer!
     link: /portfolio
   - title: Resume
     icon:
-      src: resume.png
+      src: /assets/icon/ic_resume.png
     details: See my completed list of resume in one page!
     link: /resume
   - title: LinkedIn | rickirby18
     icon:
-      src: linkedin.png
+      src: /assets/icon/ic_linkedin.png
     details: Connect with me on LinkedIn!
     link: https://linkedin.com/in/rickirby18
   - title: GitHub | rickirby
     icon:
-      light: github-light.png
-      dark: github-dark.png
+      light: /assets/icon/ic_github_light.png
+      dark: /assets/icon/ic_github_dark.png
     details: Check out my GitHub repository!
     link: https://github.com/rickirby
 ---

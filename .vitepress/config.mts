@@ -7,7 +7,7 @@ export default defineConfig({
   description: "iOS Engineer at Stockbit | Ex-Traveloka | Ex-DANA",
   srcDir: './src',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/profile-photo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/assets/profile/profile-photo.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Ricki Bin Yamin | Personal Portfolio Web Page' }],
@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     logo: { 
-      src: '/profile-photo.png', 
+      src: '/assets/profile/profile-photo.png', 
       width: 24, 
       height: 24
     },

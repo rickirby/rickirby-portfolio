@@ -16,7 +16,7 @@ We detect numerous `SwiftLint` violations scattered accross hundreds of files in
 ### Plan
 I introduce **SwiftLint Quarantine Strategy** to enhance our efforts in solving numerous `SwiftLint` violations. The concept is described in image below.<br>
 
-![Quarantine Diagram](/portfolio/port_sb_swiftlint_quarantine_diagram.png)
+![Quarantine Diagram](/assets/portfolio/port_sb_swiftlint_quarantine_diagram.png)
 
 The whole files in our project are separated into two categories: *Healthy Files*, and *Infected Files*. Healthy Files are files that don't have any `SwiftLint` violations within it, while Infected Files are files that have `SwiftLint` violations at least one within it.<br>
 
@@ -26,17 +26,17 @@ The whole files in our project are separated into two categories: *Healthy Files
 
 I create a `shell` script to get the list of infected files. I format it with a dash on every line to facilitate copying it into exclusion list inside `.swiftlint.yml` file. Here is the result example.<br>
 
-![Result Example](/portfolio/port_sb_swiftlint_quarantine_infected_list.png){width=500}
+![Result Example](/assets/portfolio/port_sb_swiftlint_quarantine_infected_list.png){width=500}
 
 Those infected files are now quarantined, it means that they're being excluded from the `SwiftLint` check. Since then, if we're now scanning the project using `SwiftLint`, there's no violation found.<br>
 
 #### Healthy Files Handling
 
-I implement the `SwiftLint` check in every Pull Request in our project. This will make sure that the changes in existing files or the addition of new files doesn't contain any `SwiftLint` violation. It will keep the integrity of remaining healthy files. This step is done with the help of [`danger-swiftlint`](https://github.com/ashfurrow/danger-ruby-swiftlint). See also how I enable `danger-swiftlint` in Gitlab-CI using a Linux runner [here](). It runs significantly faster than Xcode Cloud.<br>
+I implement the `SwiftLint` check in every Pull Request in our project. This will make sure that the changes in existing files or the addition of new files doesn't contain any `SwiftLint` violation. It will keep the integrity of remaining healthy files. This step is done with the help of [`danger-swiftlint`](https://github.com/ashfurrow/danger-ruby-swiftlint). See also how I enable `danger-swiftlint` in Gitlab-CI using a Linux runner [here](/portfolio/stockbit/linux_runner_danger_swiftlint). It runs significantly faster than Xcode Cloud.<br>
 
 Image below shows the `Danger` result of SwiftLint check in every Pull Request.<br>
 
-![Danger Result](/portfolio/port_sb_swiftlint_quarantine_mr.png){width=400}
+![Danger Result](/assets/portfolio/port_sb_swiftlint_quarantine_mr.png){width=400}
 
 As you can see, there are two sections from linter results: `SwiftLint Result` and `SwiftLint Full Config Result - Including Quarantined Files`.<br>
 
@@ -50,4 +50,4 @@ I create an agreement with other Engineer that anyone can cure the quarantined f
 
 To track our progress in decreasing the number of `SwiftLint` error, we've set up a scheduled workflow that monitors and count the remaining infected files. This count is regularly posted to our Slack channel to keep the team informed and motivated.
 
-![Bot Cepu](/portfolio/port_sb_swiftlint_quarantine_cepu.png){width=500}<br>
+![Bot Cepu](/assets/portfolio/port_sb_swiftlint_quarantine_cepu.png){width=500}<br>
