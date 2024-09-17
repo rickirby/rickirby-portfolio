@@ -36,61 +36,122 @@ The Quarantine Strategy involves classifying files into two categories: healthy 
 ::: item-details Create Release Script for Simplicity in Weekly Release Ritual
 
 :::
+<br>
 
 #### ⚙️ iOS Core Stuff
-* `OneSignal` to `FCM` Migration (Save USD 20,000 per Year)
-* Integration of Live Update Remote Config
-<br><br>
+::: item-details `OneSignal` to `FCM` Migration (Save USD 20,000 per Year)
+
+:::
+::: item-details Implementation of Live Update Remote Config
+
+:::
+<br>
+
 #### 📈 Feature Related
-* Bilingual Feature Enablement on Stockbit Apps
-* Dynamic Deeplink Handler for Stockbit Screener Feature and Its Child
-* Change Hamburger Menu into Profile Picture Button
-* SNAP-BI
-<br><br>
+::: item-details SNAP-BI
+
+:::
+::: item-details Bilingual Feature Enablement on Stockbit Apps
+
+:::
+::: item-details Dynamic Deeplink Handler for Stockbit Screener Feature and Its Child
+
+:::
+::: item-details Change Hamburger Menu into Profile Picture Button
+
+:::
+<br>
+
 #### ♺ Modularization
-* Create `Dependency Injection` Engine and Implement to the Project
-<br><br>
+::: item-details Create `Dependency Injection` Engine and Implement to the Project
+
+:::
+<br>
+
 #### ⏱️ Build Time Optimization
-* The Usage of Pre-Built Static Framework
-* Enhance Image Asset Catalog Compilation Time
-<br><br>
-#### 📚 3rd Party Library Removal
-* Sunset `Realm` and Change into Native `CoreData`
-* Sunset `LGSideMenu` and Change into Native Navigation
-* Sunset `M13Checkbox` and Create Native-Base Checkbox Component
-* Best Practice of `Parchment` Implementation (Paging View)
-<br><br>
+::: item-details The Usage of Pre-Built Static Framework
+
+:::
+::: item-details Enhance Image Asset Catalog Compilation Time
+
+:::
+<br>
+
+#### 📚 3rd Party Library Related
+::: item-details Sunset `Realm` and Change into Native `CoreData`
+
+:::
+::: item-details Sunset `LGSideMenu` and Change into Native Navigation
+
+:::
+::: item-details Sunset `M13Checkbox` and Create Native-Base Checkbox Component
+
+:::
+::: item-details Best Practice of `Parchment` Implementation (Paging View)
+
+:::
+<br>
+
 #### 🛠️ Developer Experience
-* Remote Config Inspection Tools
-* `Wormholy` Framework Bugfix (3rd Party Lib for Network Chucker)
-* `Hyperion` Framework Improvement (3rd Party Lib for iOS Layout Inspection)
-<br><br>
+::: item-details Remote Config Inspection Tools
+
+:::
+::: item-details `Wormholy` Framework Bugfix (3rd Party Lib for Network Chucker)
+
+:::
+::: item-details `Hyperion` Framework Improvement (3rd Party Lib for iOS Layout Inspection)
+
+:::
+<br>
+
 #### 🔐 Security
-* Integration of `Talsec Security` Framework to Detect Jailbreak and Other Device Manipulation
+::: item-details Integration of `Talsec Security` Framework to Detect Jailbreak and Other Device Manipulation
+
+:::
+<br>
 
 ### Traveloka
 ![Traveloka](/company/tvlk_logo_light.png){.light-only width=200}
 ![Traveloka](/company/tvlk_logo_dark.png){.dark-only width=200}
 
 #### 💸 Feature Related - Payment
-* Financials Service Page Relayout
-* PIN Challenge Handling
-<br><br>
+::: item-details Financials Service Page Relayout
+
+:::
+::: item-details PIN Challenge Handling
+
+:::
+<br>
+
 #### 🔨 Other Tech Stack
-* Migrate Legacy `Objective-C` code into `Swift` code
-* Unit Test Pattern to Check Code Sequence
+::: item-details Migrate Legacy `Objective-C` code into `Swift` code
+
+:::
+::: item-details Unit Test Pattern to Check Code Sequence
+
+:::
+<br>
 
 ### RCTI+
 ![RCTI+](/company/rcti_logo.png){width=127.41}
 
 #### 🎥 Feature Related - Video
-* Create Video Player Interaction
-<br><br>
+::: item-details Create Video Player Interaction
+
+:::
+<br>
+
 #### 🔐 Security
-* Prevent Screen Recording and Screen Capturing
-<br><br>
+::: item-details Prevent Screen Recording and Screen Capturing
+
+:::
+<br>
+
 #### 🔨 Other Tech Stack
-* Manage `JavaScript` bridge to handle communication between web apps and native apps
+::: item-details Manage `JavaScript` bridge to handle communication between web apps and native apps
+
+:::
+<br>
 
 <style scoped>
 h3 {
