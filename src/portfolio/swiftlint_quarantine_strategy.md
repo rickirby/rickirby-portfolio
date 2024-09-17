@@ -25,7 +25,7 @@ Those infected files are now quarantined, it means that they're being excluded f
 
 #### Healthy Files Handling
 
-I implement the `SwiftLint` check in every Pull Request in our project. This will make sure that the changes in existing files or the addition of new files doesn't contain any `SwiftLint` violation. It will keep the health of remaining healthy files. This step is done with the help of [`danger-swiftlint`](https://github.com/ashfurrow/danger-ruby-swiftlint). See also how I enable `danger-swiftlint` in Gitlab-CI using a Linux runner [here](). It runs significantly faster than Xcode Cloud.<br>
+I implement the `SwiftLint` check in every Pull Request in our project. This will make sure that the changes in existing files or the addition of new files doesn't contain any `SwiftLint` violation. It will keep the integrity of remaining healthy files. This step is done with the help of [`danger-swiftlint`](https://github.com/ashfurrow/danger-ruby-swiftlint). See also how I enable `danger-swiftlint` in Gitlab-CI using a Linux runner [here](). It runs significantly faster than Xcode Cloud.<br>
 
 Image below shows the `Danger` result of SwiftLint check in every Pull Request.<br>
 
@@ -33,9 +33,9 @@ Image below shows the `Danger` result of SwiftLint check in every Pull Request.<
 
 As you can see, there are two sections from linter results: `SwiftLint Result` and `SwiftLint Full Config Result - Including Quarantined Files`.<br>
 
-For the `SwiftLint Result` section, it **only** scan the healthy files. The quarantined files are skipped by the system. This part should not find any `SwiftLint` error before anyone merge their Pull Request. This is intended to keep the health of healthy files. Any code changes or new files should be healthy too.<br>
+For the `SwiftLint Result` section, it **only** scan the healthy files. The quarantined files are skipped by the system. This part should not find any `SwiftLint` error before anyone merge their Pull Request. This is intended to keep the integrity of healthy files. Any code changes or new files should be healthy too.<br>
 
-For the `SwiftLint Full Config Result - Including Quarantined Files`, the `Danger` scan all files including quarantined files. This part is to keep the `Boy Scout Rule` still be implemented by our engineers. If any `SwiftLint` error found in this section, it may comes from changes in quarantined files as long as the CI job is green (I don't fail the CI job if error is found here). However even this section result is discardable, but the Pull Request owner is encouraged to fix the `SwiftLint` error together with their code changes - `Boy Scout Rule`.
+For the `SwiftLint Full Config Result - Including Quarantined Files`, the `Danger` scan all files including quarantined files. This part is to keep the `Boy Scout Rule` still be implemented by our engineers. If any `SwiftLint` error found in this section, it may comes from changes in quarantined files. Pull Request can be still merged as long as the CI job is green (I don't fail the CI job if error is found here). However even this section result is discardable, Pull Request owner is encouraged to fix the `SwiftLint` error together with their code changes - `Boy Scout Rule`.
 
 #### Infected Files Handling
 

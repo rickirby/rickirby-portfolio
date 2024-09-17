@@ -4,6 +4,12 @@ outline: deep
 
 # Portfolio
 
+The following is a list of my work contributions during my time with various companies. As an iOS Engineer, I didn't build entire apps on my own. Instead, I collaborated closely with a team, where each of us had specific responsibilities for different features. The portfolio below highlights my individual contributions, which span across Core/Infrastructure, Security, and Feature-related areas.
+
+::: tip
+Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button to view a more in-depth article about my work.
+:::
+
 ### Stockbit
 ![Stockbit](/company/sb_logo_light.png){.light-only width=137.39}
 ![Stockbit](/company/sb_logo_dark.png){.dark-only width=137.39}
@@ -18,17 +24,17 @@ The process was significantly faster on Linux, completing in just `38 seconds`, 
 ::: item-details `SwiftLint` Quarantine Strategy to resolve thousands of Lint Violation
 To address the numerous `SwiftLint` violations scattered across hundreds of files in our project, I'm introducing a new approach known as the **Quarantine Strategy**.<br><br>
 ![Quarantine Diagram](/portfolio/port_sb_swiftlint_quarantine_diagram.png)<br>
-The Quarantine Strategy involves categorizing files into two groups: healthy and infected. We keep the health of healthy files by implementing `danger-swiftlint` on Pull Request, while on other side we reduce the number of infected files<br><br>
+The Quarantine Strategy involves classifying files into two categories: healthy and infected. To maintain the integrity of healthy files, we enforce `danger-swiftlint` on every Pull Request. Simultaneously, we work to reduce the number of infected files over time.<br><br>
 [See Details](/portfolio/swiftlint_quarantine_strategy){.rounded-button}
 :::
 ::: item-details AI-Powered Pull Request Reviewer
-Here is some detailed content inside the custom details block.
+
 :::
 ::: item-details Create Default Release Notes for `TestFlight` and `Firebase` Build
-Here is some detailed content inside the custom details block.
+
 :::
 ::: item-details Create Release Script for Simplicity in Weekly Release Ritual
-Here is some detailed content inside the custom details block.
+
 :::
 
 #### ⚙️ iOS Core Stuff
@@ -89,6 +95,7 @@ Here is some detailed content inside the custom details block.
 <style scoped>
 h3 {
     visibility: hidden;
+    margin-top: -28px;
 }
 
 h4 { 
