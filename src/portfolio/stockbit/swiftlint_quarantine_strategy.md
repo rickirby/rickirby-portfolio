@@ -1,3 +1,10 @@
+---
+prev:
+  text: 'Portfolio'
+  link: '/portfolio'
+next: false
+---
+
 # SwiftLint Quarantine Strategy
 
 Company Related: **Stockbit**<br>
