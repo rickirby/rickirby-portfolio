@@ -4,11 +4,32 @@ outline: deep
 
 # Portfolio
 
-The following is a list of my work contributions during my time with various companies. As an iOS Engineer, I didn't build entire apps on my own. Instead, I collaborated closely with a team, where each of us had specific responsibilities for different features. The portfolio below highlights my individual contributions, which span across Core/Infrastructure, Security, and Feature-related areas.
+Welcome to my portfolio! This page is divided into two sections: **Personal Projects** and **Company Projects**. In the Personal Projects section, you'll find a collection of work that I've built entirely from scratch, showcasing my skills and creativity. Additionally, as I currently work as an iOS Engineer, I’ve included highlights of the features I've developed during my professional experience in the Company Projects section. Feel free to explore both to see the range of my expertise.
 
 ::: tip
 Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button (if any) to view a more in-depth article about my work.
 :::
+
+## Personal Projects
+
+In this section, you'll find a showcase of projects I've built from the ground up, highlighting my creativity and technical skills.
+
+#### 📈 Highlighted Projects
+::: item-details Braille Document Copying System
+I developed an iOS app that captures images of Braille documents, translates them into alphabetical characters, and sends the translated result to a Braille printer. The goal of this system is to create copies of existing Braille documents that no longer have their original text in alphabetical form.<br><br>
+![Braille Copying System](/assets/portfolio/port_personal_braille_apps_flow.png)<br>
+To see the details of tech stack used and how it work, tap see details button below.<br><br>
+[See Details](/portfolio/personal/braille_copying_system){.rounded-button}<br><br>
+:::
+::: item-details Scandocs: Document Scanner Apps
+
+:::
+
+
+## Company Projects
+
+In this section, you'll find my work contributions during my time with various companies. As an iOS Engineer in a company, I didn't build entire apps on my own. Instead, I collaborated closely with a team, where each of us had specific responsibilities for different features. The portfolio below highlights my individual contributions, which span across Core/Infrastructure, Security, and Feature-related areas.
+
 
 ### Stockbit
 ![Stockbit](/assets/company/sb_logo_light.png){.light-only width=137.39}
