@@ -7,7 +7,7 @@ outline: deep
 The following is a list of my work contributions during my time with various companies. As an iOS Engineer, I didn't build entire apps on my own. Instead, I collaborated closely with a team, where each of us had specific responsibilities for different features. The portfolio below highlights my individual contributions, which span across Core/Infrastructure, Security, and Feature-related areas.
 
 ::: tip
-Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button to view a more in-depth article about my work.
+Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button (if any) to view a more in-depth article about my work.
 :::
 
 ### Stockbit
@@ -35,7 +35,10 @@ I make a POC for Pull Request reviewer using Gemini 1.5 Pro. The concept is lett
 
 :::
 ::: item-details Create Release Script for Simplicity in Weekly Release Ritual
-
+As Core-iOS team, one of our task is being a Release Manager to handle the process of releasing a build to App Store Connect.<br><br>
+The process is starting from cutting off the `development` branch, creating RC build for QA regression test (TestFlight, Firebase, and Simulator build), and finally submit the latest RC build to the App Store Connect<br><br>
+To make the early step easier, I create a shell script to cut off the `development` branch, bump the version, create release branch, and create a tag to trigger CI to start build. Image below describe enough what the script does.<br>
+![Release Script on Terminal](/assets/portfolio/port_sb_release_script_terminal.png)
 :::
 <br>
 
