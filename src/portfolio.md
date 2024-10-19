@@ -7,7 +7,8 @@ outline: deep
 Welcome to my portfolio! This page is divided into two sections: **Personal Projects** and **Company Projects**. In the Personal Projects section, you'll find a collection of work that I've built entirely from scratch, showcasing my skills and creativity. Additionally, as I currently work as an iOS Engineer, I’ve included highlights of the features I've developed during my professional experience in the Company Projects section. Feel free to explore both to see the range of my expertise.
 
 ::: tip
-Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button (if any) to view a more in-depth article about my work.
+Tap any item from the list below to expand or collapse its description. Once expanded, tap the `See Details` button (if any) to view a more in-depth article about my work.<br><br>
+![Tip](/assets/portfolio/portfolio_tip.gif)
 :::
 
 ## Personal Projects
