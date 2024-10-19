@@ -22,7 +22,10 @@ To see the details of tech stack used and how it work, tap see details button be
 [See Details](/portfolio/personal/braille_copying_system){.rounded-button}<br><br>
 :::
 ::: item-details Scandocs: Document Scanner Apps
-
+Scandocs is a sleek and efficient document scanning app designed for iOS. It offers a fast, lightweight experience while ensuring your scanned documents are seamlessly synced with your iCloud. This means you can access your documents from any iOS device linked to the same iCloud account, providing ultimate convenience across your Apple ecosystem.<br><br>
+![Scandocs](/assets/portfolio/port_personal_scandocs_apps_flow.png)<br>
+What truly stands out about this project, however, isn't just the features, but the innovative technology behind it. Tap the `See Details` button below to explore the advanced tech stack powering Scandocs.<br><br>
+[See Details](/portfolio/personal/scandocs_document_scanner){.rounded-button}<br><br>
 :::
 
 
