@@ -28,6 +28,10 @@ Scandocs is a sleek and efficient document scanning app designed for iOS. It off
 What truly stands out about this project, however, isn't just the features, but the innovative technology behind it. Tap the `See Details` button below to explore the advanced tech stack powering Scandocs.<br><br>
 [See Details](/portfolio/personal/scandocs_document_scanner){.rounded-button}<br><br>
 :::
+::: item-details Anacara: Learn Aksara Jawa
+Anacara is an iOS app designed to teach users how to write Aksara Jawa, the traditional Javanese script. By leveraging the power of machine learning, it can accurately predict and recognize what users draw on the canvas. Apple's `Core ML` framework provides the robust processing needed to handle this task efficiently, ensuring a smooth and interactive learning experience.<br><br>
+![Anacara](/assets/portfolio/port_personal_anacara_apps_flow.png)<br>
+:::
 
 
 ## Company Projects
