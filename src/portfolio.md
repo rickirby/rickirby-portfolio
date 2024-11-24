@@ -33,6 +33,14 @@ Anacara is an iOS app designed to teach users how to write Aksara Jawa, the trad
 ![Anacara](/assets/portfolio/port_personal_anacara_apps_flow.png)<br>
 [See Details](/portfolio/personal/anacara){.rounded-button}<br><br>
 :::
+::: item-details Tiba: Alarm Based in Location
+Tiba is an app to remind you with alarm when you'll arrive to your destination.
+When you are going into your destination, sometimes you need to take a rest. But you feel worry that you will skip your destination. Never let that feeling haunted you.<br><br>
+![Tiba](/assets/portfolio/port_personal_tiba_slide_4.jpeg)<br>
+![Tiba](/assets/portfolio/port_personal_tiba_slide_5.jpeg)<br>
+![Tiba](/assets/portfolio/port_personal_tiba_slide_6.jpeg)<br>
+[See Details](/portfolio/personal/tiba){.rounded-button}<br><br>
+:::
 ::: item-details Good News: News Reader Apps
 This News App serves as a showcase of my expertise in mastering various third-party frameworks commonly used by leading tech companies in Indonesia. The app leverages AsyncDisplayKit (Texture) to build a smooth and efficient UI, RxSwift to implement reactive programming, and Quick and Nimble for comprehensive unit testing. Additionally, I have integrated GitHub Actions to automate the unit testing workflow in the cloud, ensuring seamless and continuous testing in a modern CI/CD environment.<br><br>
 ![Good News](/assets/portfolio/port_personal_good_news_apps_flow.png)<br>
