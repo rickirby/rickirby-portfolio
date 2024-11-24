@@ -22,3 +22,7 @@ I solve the inter-dependency needs by using `Dependency Injection`. This approac
 
 #### Core Data with CloudKit Sync
 I implement `CoreData` to save page-scanner result, then sync the storage to the user’s personal iCloud. As result, user still can see their scanned page on other iOS device if they’re log in with the same iCloud account.
+
+### Github
+Check it out this Xcode project on my Github Profile here:
+https://github.com/rickirby/scandocs
