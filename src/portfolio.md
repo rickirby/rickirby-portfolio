@@ -22,18 +22,19 @@ I developed an iOS app that captures images of Braille documents, translates the
 To see the details of tech stack used and how it work, tap see details button below.<br><br>
 [See Details](/portfolio/personal/braille_copying_system){.rounded-button}<br><br>
 :::
-::: item-details Scandocs: Document Scanner Apps
+::: item-details **Scandocs**: Document Scanner Apps
 Scandocs is a sleek and efficient document scanning app designed for iOS. It offers a fast, lightweight experience while ensuring your scanned documents are seamlessly synced with your iCloud. This means you can access your documents from any iOS device linked to the same iCloud account, providing ultimate convenience across your Apple ecosystem.<br><br>
 ![Scandocs](/assets/portfolio/port_personal_scandocs_apps_flow.png)<br>
 What truly stands out about this project, however, isn't just the features, but the innovative technology behind it. Tap the `See Details` button below to explore the advanced tech stack powering Scandocs.<br><br>
 [See Details](/portfolio/personal/scandocs_document_scanner){.rounded-button}<br><br>
 :::
-::: item-details Anacara: Learn Aksara Jawa
-Anacara is an iOS app designed to teach users how to write Aksara Jawa, the traditional Javanese script. By leveraging the power of machine learning, it can accurately predict and recognize what users draw on the canvas. Apple's `Core ML` framework provides the robust processing needed to handle this task efficiently, ensuring a smooth and interactive learning experience.<br><br>
-![Anacara](/assets/portfolio/port_personal_anacara_apps_flow.png)<br>
-[See Details](/portfolio/personal/anacara){.rounded-button}<br><br>
+::: item-details **Hi Kanji**: Let's learn Kanji!
+Hi Kanji is an an app that helps you to learn Kanji, write and memorise Kanji writings in a fun way by competing with your friends.<br>
+I utilize Apple's Machine Learning framework, called `CoreML` to detect/recognize user's stroke on canvas. I have trained a lot of common Kanji characters to be a machine learning models.<br><br>
+![HiKanji](/assets/portfolio/port_personal_hi_kanji_slide_4.jpeg)<br>
+[See Details](/portfolio/personal/hikanji){.rounded-button}<br><br>
 :::
-::: item-details Tiba: Alarm Based in Location
+::: item-details **Tiba**: Alarm Based in Location
 Tiba is an app to remind you with alarm when you'll arrive to your destination.
 When you are going into your destination, sometimes you need to take a rest. But you feel worry that you will skip your destination. Never let that feeling haunted you.<br><br>
 ![Tiba](/assets/portfolio/port_personal_tiba_slide_4.jpeg)<br>
@@ -41,7 +42,12 @@ When you are going into your destination, sometimes you need to take a rest. But
 ![Tiba](/assets/portfolio/port_personal_tiba_slide_6.jpeg)<br>
 [See Details](/portfolio/personal/tiba){.rounded-button}<br><br>
 :::
-::: item-details Good News: News Reader Apps
+::: item-details **Anacara**: Learn Aksara Jawa
+Anacara is an iOS app designed to teach users how to write Aksara Jawa, the traditional Javanese script. By leveraging the power of machine learning, it can accurately predict and recognize what users draw on the canvas. Apple's `Core ML` framework provides the robust processing needed to handle this task efficiently, ensuring a smooth and interactive learning experience.<br><br>
+![Anacara](/assets/portfolio/port_personal_anacara_apps_flow.png)<br>
+[See Details](/portfolio/personal/anacara){.rounded-button}<br><br>
+:::
+::: item-details **Good News**: News Reader Apps
 This News App serves as a showcase of my expertise in mastering various third-party frameworks commonly used by leading tech companies in Indonesia. The app leverages AsyncDisplayKit (Texture) to build a smooth and efficient UI, RxSwift to implement reactive programming, and Quick and Nimble for comprehensive unit testing. Additionally, I have integrated GitHub Actions to automate the unit testing workflow in the cloud, ensuring seamless and continuous testing in a modern CI/CD environment.<br><br>
 ![Good News](/assets/portfolio/port_personal_good_news_apps_flow.png)<br>
 [See Details](/portfolio/personal/good_news){.rounded-button}<br><br>
