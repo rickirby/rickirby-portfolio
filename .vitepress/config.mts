@@ -30,6 +30,18 @@ export default defineConfig({
           { text: 'Portfolio', link: '/portfolio' },
           { text: 'Resume', link: '/resume' }
         ]
+      },
+      {
+        text: 'Personal Project',
+        collapsed: false,
+        items: [
+          { text: 'Braille Document Copying System', link: '/portfolio/personal/braille_copying_system' },
+          { text: 'Scandocs: Document Scanner', link: '/portfolio/personal/scandocs_document_scanner' },
+          { text: 'Hi Kanji: Let\'s Learn Kanji!', link: '/portfolio/personal/hikanji'},
+          { text: 'Tiba: Alarm Based in Location', link: '/portfolio/personal/tiba'},
+          { text: 'Anacara: Learn Aksara Jawa', link: '/portfolio/personal/anacara'},
+          { text: 'Good News: News Reader Apps', link: '/portfolio/personal/good_news'}
+        ]
       }
     ],
 
