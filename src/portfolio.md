@@ -19,7 +19,7 @@ In this section, you'll find a showcase of projects I've built from the ground u
 ::: item-details Braille Document Copying System
 I developed an iOS app that captures images of Braille documents, translates them into alphabetical characters, and sends the translated result to a Braille printer. The goal of this system is to create copies of existing Braille documents that no longer have their original text in alphabetical form.<br><br>
 ![Braille Copying System](/assets/portfolio/port_personal_braille_apps_flow.png)<br>
-To see the details of tech stack used and how it work, tap see details button below.<br><br>
+To see the details of tech stack used and how it work, tap `See Details` button below.<br><br>
 [See Details](/portfolio/personal/braille_copying_system){.rounded-button}<br><br>
 :::
 ::: item-details **Scandocs**: Document Scanner Apps
@@ -48,7 +48,7 @@ Anacara is an iOS app designed to teach users how to write Aksara Jawa, the trad
 [See Details](/portfolio/personal/anacara){.rounded-button}<br><br>
 :::
 ::: item-details **Good News**: News Reader Apps
-This News App serves as a showcase of my expertise in mastering various third-party frameworks commonly used by leading tech companies in Indonesia. The app leverages AsyncDisplayKit (Texture) to build a smooth and efficient UI, RxSwift to implement reactive programming, and Quick and Nimble for comprehensive unit testing. Additionally, I have integrated GitHub Actions to automate the unit testing workflow in the cloud, ensuring seamless and continuous testing in a modern CI/CD environment.<br><br>
+This News App serves as a showcase of my expertise in mastering various third-party frameworks commonly used by leading tech companies in Indonesia. The app leverages `AsyncDisplayKit` (Texture) to build a smooth and efficient UI, `RxSwift` to implement reactive programming, and `Quick` and `Nimble` for comprehensive unit testing. Additionally, I have integrated GitHub Actions to automate the unit testing workflow in the cloud, ensuring seamless and continuous testing in a modern CI/CD environment.<br><br>
 ![Good News](/assets/portfolio/port_personal_good_news_apps_flow.png)<br>
 [See Details](/portfolio/personal/good_news){.rounded-button}<br><br>
 :::
@@ -93,6 +93,9 @@ To make the early step easier, I create a shell script to cut off the `developme
 
 #### ⚙️ iOS Core Stuff
 ::: item-details `OneSignal` to `FCM` Migration (Save USD 20,000 per Year)
+
+:::
+::: item-details Modularization Enhancement to Cut Build Time up to 50%
 
 :::
 ::: item-details Implementation of Live Update Remote Config
