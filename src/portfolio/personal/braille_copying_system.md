@@ -1,5 +1,5 @@
 # Braille Copying System
-Additional Feature for Institut Teknologi Sepuluh Nopember's Braille Printing Machine<br><br>
+**Additional Feature for Institut Teknologi Sepuluh Nopember's Braille Printing Machine**<br><br>
 On my Final Project (Thesis) for my Bachelor degree, I made an apps that translate Braille Document, and send the translation result to the Braille Printer owned by Institut Teknologi Sepuluh Nopember (ITS) via an IoT Device to be duplicated.
 
 The purpose of this project is to make copier system for Braille Documents. It start from the story of there are a huge numbers of Braille Documents in the libraries which are getting obselete. To conserve them, we have to re-print them. But unfortunately, they don’t have their original text, so re-printing them is imposible to do otherwise we have to translate them manually, input the translation data into computer, and print it. Imagine doing it manually to a huge numbers of Braille Documents.
